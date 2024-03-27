@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>ArchSoft.OpenErp.Enums.PtBr</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ricardo de Luna Galdino</Authors>
+    <Company>ArchSoft</Company>
+    <Copyright>© 2024 ArchSoft</Copyright>
+    <Description>Open-source library featuring a compilation of Enums in Brazilian Portuguese to streamline the development of ERP (Enterprise Resource Planning) systems.</Description>
+    <PackageProjectUrl>http://www.archsoft.com.br</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/archsoft-br</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Enums</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="README.md" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
